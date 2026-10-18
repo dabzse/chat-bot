@@ -1,0 +1,24 @@
+# ==============================================================================
+# Requirements for chat-bot projects
+# ==============================================================================
+
+# --- Project 1: BOT_* (AI Intent Chatbot) ---
+# Requires TensorFlow, NLTK, and NumPy for model training and inference.
+# Recommended Python version: 3.10+
+tensorflow>=2.10.0; python_version >= '3.10'
+nltk>=3.8.1
+numpy>=1.22.0
+
+# --- Project 2: GUI_* (Tkinter Desktop Chat) ---
+# Built using Python's standard library (socket, threading, sys, tkinter).
+# Linux system package requirements for Tkinter:
+#   Debian/Ubuntu: sudo apt-get install python3-tk
+#   Fedora/RHEL:   sudo dnf install python3-tkinter
+
+# --- Project 3: TCP_* (TCP Chat with Admin & Ban System) ---
+# Built using Python standard library (socket, threading, os, sys).
+# No external pip dependencies needed.
+
+# --- Project 4: UDP_* (UDP Broadcast Chat) ---
+# Built using Python standard library (socket, threading, queue, sys).
+# No external pip dependencies needed.
